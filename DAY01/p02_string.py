@@ -38,7 +38,7 @@ print(cp)
 print(cp[8]) # t
 #cp[8] = 'd' # 문자열은 배열이긴 하나 값을 변경할 수 없는 배열이다
 
-#문자열 번위 슬라이싱
+#문자열 범위 슬라이싱
 print(cp[12:16+1]) #short - : 뒤에 있는 숫자는 항상 +1
 
 print(ascii('안'),ascii('녕'),ascii('하'),ascii('세'),ascii('요'),)
