@@ -63,6 +63,8 @@ print(even)
 # 출력결과 [2, 4, 10, 20]
 
 # 리스트 함수
+# 스택의 기능 append() 마지막에 할당, pop() 마지막에서 값 꺼내기
+
 # append 리스트 제일 뒤에 추가
 even.append(30)
 print(even)
@@ -74,3 +76,40 @@ print(even)
 # 출력결과 [2, 4, 6, 10, 20, 30]
 
 # 정렬
+origin = [45, 23, 9, 17, 1, 5, 11, 3, 29, 30]
+
+origin.sort() # 오름차순(Ascending)
+print(origin)
+# 출력결과 [1, 3, 5, 9, 11, 17, 23, 29, 30, 45]
+origin.sort(reverse=True) # 내림차순(Desending)
+print(origin)
+# 출력결과 [45, 30, 29, 23, 17, 11, 9, 5, 3, 1]
+
+# 뒤집기
+aa = ['a', 'f', 'e', 'b']
+
+aa.reverse()
+print(aa)
+# 출력결과 ['b', 'e', 'f', 'a']
+
+print(aa.count('a')) # 1
+print(aa.index('e')) # 1
+
+#지우기
+bb = [1, 3, 5, 6 ,8 ,3, 1]
+
+bb.remove(3)
+print(bb) # 맨 앞에 있는 3만 지움
+# 출력결과 [1, 5, 6, 8, 3, 1]
+
+# 맨 마지막 값을 가지고 나옴 : 스택의 기능 pop()
+print(even.pop()) # 30
+print(even.pop()) # 20
+print(even) # [2, 4, 6, 10]
+
+# 튜플
+# 리스트랑 동일, 단, 삭제 편집이 불가능하다
+tVal = (1, 3, 5, 7, 9)
+# 튜플은 한번 만들어지면 끝까지 그대로 사용해야 한다
+# tVal[2] = 11 (x)
+# del tval[2] (x)
