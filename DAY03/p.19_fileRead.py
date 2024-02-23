@@ -1,0 +1,13 @@
+#file: p18_fileRead.py
+#desc: 텍스트 파일 읽기
+
+f = open('./day03/smaple.txt', mode='r', encoding= 'UTF-8')
+###
+
+while True : 
+    read = f.readlines()
+    if not read : break # 더이상 읽을 값이 없으면 반복문탈출
+    print(read.replace('\n', ''))
+  
+  
+    f.close()
