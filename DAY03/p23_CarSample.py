@@ -1,26 +1,24 @@
-#file: p23_CarSample.py
-#desc: Car클래스 사용해보기
-
+# file : p23_carSample.py
+# desc : Car클래스 사용해보기
 from p22_carClass import Car
 
-myCar = Car() # 클래스를 사용, 객체를 하나 생성(instance)
-YourCar = Car()
-print(myCar)
-print(YourCar)
-
-myCar.carNum = '10번 차 '
+myCar = Car('54라 9538') # 클래스를 사용, 객체를 하나 생성(instance)
+yourCar = Car('98호 8733')
+# print(myCar)
+# print(yourCar)
+# myCar.__carNum = '54라 9538' # 더이상 불가
 myCar.company = '현대자동차'
-myCar.carType = '카니발'
 myCar.fuelType = '가솔린'
-myCar.color = '노란색'
-myCar.releaseYear = 2020
-YourCar.carNum = '30번 차 '
+myCar.carType = '하이브리드'
+myCar.color = '흰색'
+myCar.releaseYear = 2018
+# yourCar.__carNum = '87호 8733'
+print(myCar)
 
+myCar.getCarColor()
 myCar.start()
 myCar.accel()
-YourCar.start()
-myCar.turnLeft()
+yourCar.start()
 myCar.turnRight()
-myCar.brk()
-myCar.__init__()
-myCar.__str__()
+myCar.turnLeft()
+myCar.brake()
