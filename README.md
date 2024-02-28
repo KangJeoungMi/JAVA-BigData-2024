@@ -95,8 +95,8 @@
                 return self.__name, self.__phoneNumber, self.__eMail, self.__addr
         ```
 
-        ![주소록앱](https://raw.githubusercontent.com/hugoMGSung/java-bigdata-2024/main/images/bigdata01.gif)
+        ![주소록앱](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata01.gif)
 
         - Windows App 만들기(PyQt 5)
 
-        ![QtApp](https://raw.githubusercontent.com/hugoMGSung/java-bigdata-2024/main/images/bigdata02.png)
+        ![QtApp](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata02.png)
