@@ -100,3 +100,18 @@
         - Windows App 만들기(PyQt 5)
 
         ![QtApp](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata02.png)
+
+
+
+## 6일차 (24.02.28)
+- 파이썬 학습
+    - PyQt5 학습 이어서
+        - QWidget 자식 클래스 종류 학습
+        
+        ![QLabel](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata03.png)
+
+        - Naver 뉴스API 검색 앱 
+
+        ![naverApp](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata04.png)
+
+        

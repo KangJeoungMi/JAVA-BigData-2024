@@ -1,5 +1,6 @@
 # file : p35_qtApp.py
 # desc : PyQt5 앱 만들기
+
 '''
 PyQt5 -> Qt를 파이썬에서 쓸수 있도록 만든 라이브러리
 Qt -> C,C++ 사용할 GUI(WinApp) 프레임워크(멀티플랫폼)
