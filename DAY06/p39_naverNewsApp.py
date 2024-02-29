@@ -56,14 +56,17 @@ class qtApp(QWidget):
 
         n = 0
         for post in result:
-            self.tblSearchResult.setItem(n, 0, QTableWidgetItem(post['title']))
+            title = str(post['title']).replace('<b>', '').replace('</b>', '').replace('&quot;', '"')
+            self.tblSearchResult.setItem(n, 0, QTableWidgetItem(title))
             self.tblSearchResult.setItem(n, 1, QTableWidgetItem(post['link']))
+            # 현재날짜 Thu,29 Feb 2024 07:00:00 +09:00 를 2024-02-29로 변경하는 직업
             tempDates = str(post['pubDate']).split(' ') # 내일 설명
             year = tempDates[3]
             month = time.strptime(tempDates[2], '%b').tm_mon
             month = f'{month:02d}'
             day = tempDates[1]
             date = f'{year}-{month}-{day}'
+            # 여기까지
             self.tblSearchResult.setItem(n, 2, QTableWidgetItem(date))
             n += 1
 
