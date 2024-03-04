@@ -142,4 +142,5 @@
         - 슬랙 webhook로 모바일 메시지 전송
 
         <!--[슬랙](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg)-->
+        <!-- html 태그로 이미지를 삽입하면 문제없음 -->
         <img src = "https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg" width = "250">
