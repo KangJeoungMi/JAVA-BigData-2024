@@ -138,6 +138,8 @@
 ## 8일차
 - 파이썬 응용
     - 파이썬 자동화
-    
+       - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
+        - 슬랙 webhook로 모바일 메시지 전송
 
-        
+        <!--[슬랙](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg)-->
+        <img src = "https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg" width = "250">
