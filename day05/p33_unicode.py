@@ -14,3 +14,6 @@ print(c)
 print(type(c))
 
 print(b.decode('utf-8')) # 유니코드로 문자열 변환
+
+
+
