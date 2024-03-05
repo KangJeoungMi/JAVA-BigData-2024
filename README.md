@@ -135,22 +135,22 @@
 
         ![구글번역](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata07.png)
 
-## 8일차
-- 파이썬 응용
-    - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
-    - 슬랙 webhook로 모바일 메시지 전송
-
-    <!--[슬랙](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg)-->
-    <!-- html 태그로 이미지를 삽입하면 문제없음 -->
-    <img src = "https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata08.jpg" width = "250">
-
-    - Tesseract 프로그램으로 이미지에서 글자 추출 (인식울을 높이려면 직접 트레이닝을 해서 트레이닝 데이터를 만들어야함)
-    ![OCR](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata09.png)
-
 ## 9일차
 - 파이썬 응용
-    - 이미지 처리 open CV
-    - 플라스크 웹서버
-    - 그림에디터 만들기
+    - 이미지 처리 OpenCV [윤대희님 깃헙](https://076923.github.io/posts/Python-opencv-1/) 참조
+
+    ![얼굴인식](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata10.gif)
+    
+    - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html), [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
+    
+    - 그림에디터 만들기(with PyQt5)
+
+    ![editor](https://github.com/KangJeoungMi/JAVA-BigData-2024/blob/main/images/bigdata11.gif)
+
+## 10일차
+- 파이썬 응용
+    - 그림에디터 완성
     - 메모장 만들기
-    - Jupter Notebook(빅데이터 분석, 코딩 테스트)
+    - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
+
+
