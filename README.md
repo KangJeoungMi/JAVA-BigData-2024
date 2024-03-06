@@ -163,8 +163,10 @@
        - -w는 윈도우창만 실행 콘솔창 삭제, -F _internal  폴더 생성안되도록, 진짜 openFile로 만들기
        - 실패, 재생성시는 build, dist폴더 삭제, pythonfile.spec 삭제 뒤 명령어 실행
 
-    - 메모장 만들기
     - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
-        -ctrl + shift + p(명령 팔레트)
+        - ctrl + shift + p(명령 팔레트)
+        - 노트북 사용
+        - chat gpt API 사용
+    - 메모장 만들기(참고링크)
 
 
