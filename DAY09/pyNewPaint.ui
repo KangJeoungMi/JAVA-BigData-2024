@@ -72,6 +72,7 @@
       <string>변환(&amp;T)</string>
      </property>
      <addaction name="action_G"/>
+     <addaction name="action_B"/>
     </widget>
     <addaction name="menu_P"/>
     <addaction name="menuchang_T"/>
@@ -193,6 +194,11 @@
   <action name="action_G">
    <property name="text">
     <string>그레이스케일(&amp;G)</string>
+   </property>
+  </action>
+  <action name="action_B">
+   <property name="text">
+    <string>블러(B)</string>
    </property>
   </action>
  </widget>

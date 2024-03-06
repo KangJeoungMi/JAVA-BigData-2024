@@ -52,6 +52,7 @@ class WinApp(QMainWindow):   # QWidget이 아님!
         self.action_action.triggered.connect(self.actionAboutClicked)
         # 변환메뉴 추가
         self.action_G.triggered.connect(self.actionGrayscaleClicked)
+        self.action_B.triggered.connect(self.actionBClicked)
         
                 
     def actionGrayscaleClicked(self):
@@ -69,9 +70,16 @@ class WinApp(QMainWindow):   # QWidget이 아님!
         grayImg = QImage(image, image.shape[1], image.shape[0], image.strides[0], QImage.Format_Grayscale16)
         self.lblCanvas.setPixmap(QPixmap.fromImage(grayImg))
     
-       
-        
-        
+    def actionBClicked(self):
+        # tmpPath = './day09/temp.png'
+        tmpPath = './DAY09/imgs/save.png'
+        pixmap = self.lblCanvas.pixmap() # 라벨에 있는 그림을 pixmap 변수에 저장
+        pixmap.save(tmpPath)
+        image = cv2.imread(tmpPath)
+        blur = cv2.blur(image, (10,10))
+        blurImg = QImage(blur, blur.shape[1], blur.shape[0], blur.strides[0], QImage.Format_BGR888)
+        self.lblCanvas.setPixmap(QPixmap.fromImage(blurImg))
+            
     def actionNewClicked(self):
         canvas = QPixmap(self.lblCanvas.width(),self.lblCanvas.height())
         canvas.fill(QColor('white'))
